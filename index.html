@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html Lang="pt-br">
+    <head>
+        
+        <style>
+            .p{
+                font: arial;
+            }
+            .formulario{
+                width: 100px;
+            }
+
+            .botao{
+                background-color: rgb(56, 56, 56);
+                color: white;
+                height: 46px;
+
+                margin-top: 20px;
+                width: 175px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                vertical-align: bottom;
+                cursor: pointer;
+            }
+            .mensagem{
+                text-align: left;
+                padding-left: 500px;
+                padding-bottom: 50px;
+
+            }
+            .botao2{
+                background-color: rgb(56, 56, 56);
+                color: white;
+                height: 46px;
+                margin-left: 50px;
+                margin-top: 20px;
+                width: 175px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                vertical-align: bottom;
+                cursor: pointer;
+            }
+            
+            
+        </style>
+
+    </head>
+    <body>
+        
+        <h1> Formulário de contato </h1>
+        <img class="formulario" src="https://static.vecteezy.com/ti/vetor-gratis/p1/4621556-customer-support-black-glyph-icon-call-contact-center-telephone-consultant-phone-operator-helpline-manager-consulta-silhueta-simbolo-on-white-space-vector-isolated-illustration-vetor.jpg">
+        <p> Deixe-nos saber suas perguntas, sugestões ou duvidas, preenchendo o formulario de contato abaixo.</p>
+        <hr> </br>
+
+        <p>Nome*</p>   <input name="nome" placeholder="Nome"> 
+        <p>Sexo </p> 
+        Feminino: <input type="checkbox">
+        Masculino:<input type="checkbox">
+        Outro: <input type="checkbox">
+        <p>Email*</p> <input email="email" placeholder="Email">
+        <p>Telefone*</p> <input type="number" telefone="telefone" placeholder="### ### ####">
+        <p>Assunto*</p> <input assunto="assunto" placeholder="consulta">
+        <p> O quão grave é a sua solicitação? </p>
+        <input class="range"type="range" id="volume" name="volume" min="0" max="10" />
+
+        <p>Insira a data de atual de envio </p>
+        <input type="date" value="date">
+
+        <p>Deseja inserir algum documento para envio?</p>
+        <input type="file" name="arquivo" value="arquivo"> 
+        <br>
+
+        <p></p>
+        <p>Mensagem*</p>
+        <div style="display: flex;
+        ">
+        <input  class="mensagem" mensagem="mensagem" placeholder=""> <br>
+        </div>
+        <input class="botao" type="submit" value="Enviar">
+        <input class="botao2" type="reset" value="Resetar">
+
+
+
+
+
+
+
+    </body>
+</html>
